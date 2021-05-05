@@ -103,3 +103,24 @@
         transform: rotate(0deg) ;
     }
 }
+
+/* ex12 */
+.well:hover .ex-12-top-white {
+    animation:2s linear;
+    animation-name: l-r;
+}
+@keyframes l-r {
+    0% { left: 10%; top: -10px}
+    50% { left: 70%; top: -10px;}
+    100% { left: 10%; top: -10px }
+}
+
+.well:hover .ex-12-bottom-white {
+    animation:2s linear;
+    animation-name: r-l;
+}
+@keyframes r-l {
+    0% { left: 70%; bottom: -10px}
+    50% { left: 10%; bottom: -10px}
+    100% { left: 70%; bottom: -10px }
+}
