@@ -72,3 +72,17 @@
     filter: grayscale(0.7) sepia(0.7);
     transform: scale(1.5);
 }
+
+/* ex10 */
+.well .ex-10-icon {
+    animation: 1s infinite linear;
+    animation-name: spin;
+}
+@keyframes spin {
+    from {
+      transform: rotate(359deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+}
