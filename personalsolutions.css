@@ -124,3 +124,30 @@
     50% { left: 10%; bottom: -10px}
     100% { left: 70%; bottom: -10px }
 }
+
+/* ex13 */
+.well:hover .ex-13-top-white {
+    animation:2s linear;
+    animation-name: l-r2;
+}
+@keyframes l-r2{
+    0% { left: 10%; top: -10px;}
+    20% { left: 70%; top: -10px;}
+    40% { left: 70%; top: 60px;}
+    60% { left: -10%; top: 60px;}
+    80% { left: -10%; top: -10px}
+    100% { left: 10%; top: -10px;}
+}
+
+.well:hover .ex-13-bottom-white {
+    animation:2s linear;
+    animation-name: r-l2;
+}
+@keyframes r-l2 {
+    0% { right: 10%; bottom: -10px;}
+    20% { right: 72%; bottom: -10px;}
+    40% { right: 72%; bottom: 60px;}
+    60% { right: -10%; bottom: 60px;}
+    80% { right: -10%; bottom: -10px}
+    100% { right: 10%; bottom: -10px;}
+}
